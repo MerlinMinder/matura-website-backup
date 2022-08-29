@@ -87,8 +87,8 @@
           <div id="time-part">{{ time[1].toUpperCase() }}</div>
           <div
             :style="{
-              width: String(time[0]) + 'px',
-              'background-color': '#' + time[0].toString(16).padStart(3, '0'),
+              width: String(time[0] * 0.75) + 'px',
+              'background-color': '#' + time[0].toString(19).padStart(3, '0'),
             }"
             id="time-block"
           >
@@ -426,6 +426,7 @@ onMounted(async () => {
     work.sort().reverse();
     post.worktime = work;
   });
+  worktime.value.sort((a, b) => a[0] - b[0]).reverse();
 });
 </script>
 
