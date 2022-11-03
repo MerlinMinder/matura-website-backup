@@ -9,7 +9,7 @@
       </div>
       <p id="app">Workout Progression App</p>
       <p id="work">Matura Work 2022</p>
-      <p id="name">By Merlin Minder 3eW</p>
+      <p id="name">By Merlin Minder 4eW</p>
     </div>
   </div>
   <div class="container">
