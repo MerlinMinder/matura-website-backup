@@ -31,7 +31,7 @@
       </p>
     </div>
     <div id="timeline">
-      <p id="timeline-title" class="title">Project Timeline as of 26.07.2022</p>
+      <p id="timeline-title" class="title">Project Timeline as of 16.11.2022</p>
       <div id="calendar">
         <p id="july">July</p>
         <p id="august">August</p>
@@ -303,13 +303,13 @@ const calendar = [
     { day: 11, type: types.func, holiday: holidays.normal },
     { day: 12, type: types.func, holiday: holidays.normal },
     { day: 13, type: types.func, holiday: holidays.normal },
-    { day: 14, type: types.debug, holiday: holidays.normal },
-    { day: 15, type: types.debug, holiday: holidays.normal },
-    { day: 16, type: types.debug, holiday: holidays.normal },
-    { day: 17, type: types.debug, holiday: holidays.normal },
-    { day: 18, type: types.debug, holiday: holidays.normal },
-    { day: 19, type: types.debug, holiday: holidays.normal },
-    { day: 20, type: types.debug, holiday: holidays.normal },
+    { day: 14, type: types.func, holiday: holidays.normal },
+    { day: 15, type: types.func, holiday: holidays.normal },
+    { day: 16, type: types.func, holiday: holidays.normal },
+    { day: 17, type: types.func, holiday: holidays.normal },
+    { day: 18, type: types.func, holiday: holidays.normal },
+    { day: 19, type: types.func, holiday: holidays.normal },
+    { day: 20, type: types.func, holiday: holidays.normal },
     { day: 21, type: types.debug, holiday: holidays.normal },
     { day: 22, type: types.debug, holiday: holidays.normal },
     { day: 23, type: types.debug, holiday: holidays.normal },
