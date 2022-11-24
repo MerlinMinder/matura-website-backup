@@ -87,7 +87,7 @@
           <div id="time-part">{{ time[1].toUpperCase() }}</div>
           <div
             :style="{
-              width: String(Math.pow(time[0], 0.85)) + 'px',
+              width: String(Math.pow(time[0], 0.8)) + 'px',
               'background-color': '#' + time[0].toString(19).padStart(3, '0'),
             }"
             id="time-block"
