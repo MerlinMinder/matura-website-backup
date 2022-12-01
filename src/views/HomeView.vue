@@ -16,22 +16,23 @@
     <div id="about">
       <p id="about-title" class="title">About</p>
       <p id="about-text">
-        This Matura Work is a combination of a project and the correlating
-        documentation thereof. As seen in the title the project consists of a
-        fitness app which will be programmed from scratch. The resulting app and
-        code is open-sourced and available on Github. The documentation includes
-        the process from designing to programming, debugging and testing. It,
-        combined with further parts of the Matura Work are all on this website.
-        Disclaimer: Everything on this website is still subject to change untill
-        the final Deadline.
+        This Matura Project combines a practical project and the correlating
+        documentation thereof. As illustrated in the title, the project consists
+        of a fitness app I programmed and designed from scratch. The resulting
+        code and designs are open-sourced and available on GitHub and Figma,
+        respectively. The documentation includes blog posts displaying the
+        process from planning to programming, debugging, and testing. In
+        conjunction with other parts of the Matura Work, such as a report, I
+        published it on this self-made website, which I developed to support the
+        project.
       </p>
       <p id="about-ques">The main question I will aim to answer is:</p>
       <p id="about-objective">
-        How does the process of programming a fitness app look like?
+        What does the process of programming a fitness app look like?
       </p>
     </div>
     <div id="timeline">
-      <p id="timeline-title" class="title">Project Timeline as of 16.11.2022</p>
+      <p id="timeline-title" class="title">Project Timeline</p>
       <div id="calendar">
         <p id="july">July</p>
         <p id="august">August</p>
@@ -310,21 +311,21 @@ const calendar = [
     { day: 18, type: types.func, holiday: holidays.normal },
     { day: 19, type: types.func, holiday: holidays.normal },
     { day: 20, type: types.func, holiday: holidays.normal },
-    { day: 21, type: types.debug, holiday: holidays.normal },
-    { day: 22, type: types.debug, holiday: holidays.normal },
-    { day: 23, type: types.debug, holiday: holidays.normal },
-    { day: 24, type: types.debug, holiday: holidays.normal },
-    { day: 25, type: types.debug, holiday: holidays.normal },
-    { day: 26, type: types.debug, holiday: holidays.normal },
-    { day: 27, type: types.debug, holiday: holidays.normal },
-    { day: 28, type: types.finalasiation, holiday: holidays.normal },
-    { day: 29, type: types.none, holiday: holidays.normal },
-    { day: 30, type: types.none, holiday: holidays.normal },
+    { day: 21, type: types.func, holiday: holidays.normal },
+    { day: 22, type: types.func, holiday: holidays.normal },
+    { day: 23, type: types.func, holiday: holidays.normal },
+    { day: 24, type: types.func, holiday: holidays.normal },
+    { day: 25, type: types.func, holiday: holidays.normal },
+    { day: 26, type: types.func, holiday: holidays.normal },
+    { day: 27, type: types.func, holiday: holidays.normal },
+    { day: 28, type: types.func, holiday: holidays.normal },
+    { day: 29, type: types.debug, holiday: holidays.normal },
+    { day: 30, type: types.debug, holiday: holidays.normal },
   ],
   [
-    { day: 1, type: types.none, holiday: holidays.normal },
-    { day: 2, type: types.none, holiday: holidays.normal },
-    { day: 3, type: types.none, holiday: holidays.normal },
+    { day: 1, type: types.debug, holiday: holidays.normal },
+    { day: 2, type: types.debug, holiday: holidays.normal },
+    { day: 3, type: types.finalasiation, holiday: holidays.normal },
     { day: 4, type: types.none, holiday: holidays.normal },
     { day: 5, type: types.deadline, holiday: holidays.normal },
     { day: 6, type: types.none, holiday: holidays.normal },
