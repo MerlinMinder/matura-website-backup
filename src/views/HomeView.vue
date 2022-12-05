@@ -31,7 +31,11 @@
         style="margin-top: 10vh; font-size: 20px"
         >Project Report</a
       >
-
+      <a
+        href="./src/assets/Appp_viewing_explanation.pdf"
+        style="margin-top: 3vh; font-size: 20px"
+        >View the App</a
+      >
       <p id="about-ques">The main question I will aim to answer is:</p>
       <p id="about-objective">
         What does the process of programming a fitness app look like?
